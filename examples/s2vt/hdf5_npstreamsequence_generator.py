@@ -5,6 +5,13 @@ import numpy as np
 import os
 import random
 import sys
+import shutil
+
+def check_path(path):
+
+    if not os.path.exists(path):
+        os.makedirs(path)
+
 
 class SequenceGenerator():
   def __init__(self):
@@ -110,7 +117,8 @@ class HDF5SequenceWriter():
     assert output_dir is not None  # required
     self.output_dir = output_dir
     if os.path.exists(output_dir):
-      raise Exception('Output directory already exists: ' + output_dir)
+      shutil.rmtree(output_dir)
+      #raise Exception('Output directory already exists: ' + output_dir)
     os.makedirs(output_dir)
     self.verbose = verbose
     self.filenames = []

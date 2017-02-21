@@ -18,7 +18,7 @@ layer {
   include { phase: TRAIN }
   hdf5_data_param {
     source: "./hdf5/buffer_32_s2vt_80/train_batches/hdf5_chunk_list.txt"
-    batch_size: 80
+    batch_size: 40
   }
 }
 layer {
@@ -35,7 +35,7 @@ layer {
   }
   hdf5_data_param {
     source: "./hdf5/buffer_32_s2vt_80/train_batches/hdf5_chunk_list.txt"
-    batch_size: 80
+    batch_size: 40
   }
 }
 layer {
@@ -52,7 +52,7 @@ layer {
   }
   hdf5_data_param {
     source: "./hdf5/buffer_32_s2vt_80/valid_batches/hdf5_chunk_list.txt"
-    batch_size: 80
+    batch_size: 40
   }
 }
 layer {
@@ -62,7 +62,7 @@ layer {
   top: "stage_indicator_3axis"
   reshape_param {
     shape {
-      dim: 80
+      dim: 40
       dim: 32
       dim: 1
     }

@@ -1,0 +1,130 @@
+vid1236	A monkey is playing.
+vid1237	A man is riding a motorcycle.
+vid1234	A woman is pouring some meat.
+vid1235	A man is cutting a large knife.
+vid1232	A man is riding a hill.
+vid1233	A man is riding a horse.
+vid1230	A man is playing a guitar.
+vid1231	A dog is walking with a dog.
+vid1238	A man is doing a guitar.
+vid1239	A man is exercising.
+vid1243	A man is taking a soda.
+vid1242	A cat is cooking.
+vid1241	A panda is playing.
+vid1240	A man is speaking on a telephone.
+vid1247	A man is pushing a ball.
+vid1246	A man is cutting a loaf of bread.
+vid1245	A man is talking at a glass.
+vid1244	A man is playing a flute.
+vid1249	A baby is walking.
+vid1248	A young girl is dancing.
+vid1250	A young man is playing a guitar.
+vid1251	A man is playing a guitar.
+vid1252	The animal is playing with a toy.
+vid1253	A man is playing a piano.
+vid1254	A man is talking on a stage.
+vid1255	A man is riding a horse.
+vid1256	A man is playing a guitar.
+vid1257	A bear is playing.
+vid1258	A man is playing a guitar.
+vid1259	A man is dancing and a girl dance to the other of people are dancing.
+vid1236	A monkey is playing.
+vid1237	A man is riding a motorcycle.
+vid1234	A woman is pouring some meat.
+vid1235	A man is cutting a large knife.
+vid1232	A man is riding a hill.
+vid1233	A man is riding a horse.
+vid1230	A man is playing a guitar.
+vid1231	A dog is walking with a dog.
+vid1238	A man is doing a guitar.
+vid1239	A man is exercising.
+vid1243	A man is taking a soda.
+vid1242	A cat is cooking.
+vid1241	A panda is playing.
+vid1240	A man is speaking on a telephone.
+vid1247	A man is pushing a ball.
+vid1246	A man is cutting a loaf of bread.
+vid1245	A man is talking at a glass.
+vid1244	A man is playing a flute.
+vid1249	A baby is walking.
+vid1248	A young girl is dancing.
+vid1250	A young man is playing a guitar.
+vid1251	A man is playing a guitar.
+vid1252	The animal is playing with a toy.
+vid1253	A man is playing a piano.
+vid1254	A man is talking on a stage.
+vid1255	A man is riding a horse.
+vid1256	A man is playing a guitar.
+vid1257	A bear is playing.
+vid1258	A man is playing a guitar.
+vid1259	A man is dancing and a girl dance to the other of people are dancing.
+vid1269	A man is jumping a huge scene.
+vid1268	A young man is playing a phone.
+vid1300	A white white white white white white house.
+vid1265	A man is playing with a bag.
+vid1264	A man is running in a forest.
+vid1267	A man is walking.
+vid1266	A man is jumping and jump in a beach.
+vid1261	A man is slicing potatoes.
+vid1260	A man is playing a guitar.
+vid1263	A man is singing a bicycle.
+vid1262	A man is doing the something.
+vid1209	A monkey is running.
+vid1208	A man is singing.
+vid1207	A man is playing with a wall.
+vid1206	A man is playing a guitar.
+vid1205	A group of men are running.
+vid1204	A person is cutting the vegetable.
+vid1203	A girl is putting a face.
+vid1202	A man is slicing a piece of bread.
+vid1201	A man is pouring meat into a bag.
+vid1287	A man is doing a piece of a board.
+vid1286	A man is taking a straw.
+vid1285	A young man is talking.
+vid1284	A man is cooking.
+vid1283	A man is walking.
+vid1282	A woman is cutting some some of a bowl.
+vid1281	A man is doing a wheelie.
+vid1280	A man is shooting a gun.
+vid1289	A man is cutting a gun.
+vid1288	A woman is peeling a apple.
+vid1278	A man is doing a basketball.
+vid1279	A man is doing a gun.
+vid1272	A man is pouring some some soup.
+vid1273	A man is pouring some sauce into a bowl.
+vid1270	A man is doing a bench.
+vid1271	A man is slicing a vegetable into a bowl.
+vid1276	A man is holding a huge board.
+vid1277	A man is riding a boat.
+vid1274	A man is slicing some vegetable.
+vid1275	A woman is playing a guitar.
+vid1218	A person is mixing ingredients in a bowl.
+vid1219	A man is walking.
+vid1214	A dog is walking.
+vid1215	The cat is playing with a cat.
+vid1216	A woman is doing a makeup.
+vid1217	A man is playing a guitar.
+vid1210	A man is doing a gym.
+vid1211	A man is shooting a gun.
+vid1212	A woman is taking a large water.
+vid1213	A man is riding a car.
+vid1294	A man is slicing a carrot.
+vid1295	A man is holding a bench.
+vid1296	A dog is playing with a field.
+vid1297	A man is playing a guitar.
+vid1290	A baby is laughing.
+vid1291	A man is playing a guitar.
+vid1292	A puppy is playing with a stuffed toy.
+vid1293	A man is playing a ball.
+vid1298	A man is talking and playing a camera.
+vid1299	A woman is doing a piece of a piece of a pair.
+vid1229	A young girl is playing the guitar.
+vid1228	A cat is playing with a house.
+vid1221	A woman is cutting a meat.
+vid1220	A man is using a group of a man is speaking on a sword.
+vid1223	A man is chopping up a vegetable.
+vid1222	A man is slicing a loaf of pieces.
+vid1225	A man is playing a guitar.
+vid1224	A group of people are dancing on stage.
+vid1227	A man is cutting a piece of bread.
+vid1226	A man is doing a woman.

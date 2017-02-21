@@ -50,7 +50,7 @@ class fc7FrameSequenceGenerator(SequenceGenerator):
               self.vid_framefeats[video_id]=0
             else:
               self.vid_framefeats[video_id]=[]
-          if self.mean_pool_frames:
+          if self.mean_pool_frames: #what does this flag do?
             # first just count the number of frames
             self.vid_framefeats[video_id] += 1
           else:
@@ -61,6 +61,7 @@ class fc7FrameSequenceGenerator(SequenceGenerator):
         total_counter = 0
         for video_id, n_frames in self.vid_framefeats.iteritems():
           #import ipdb; ipdb.set_trace(); 
+    
           self.vid_framefeats[video_id] = np.mean(feat_mat[total_counter:total_counter+n_frames-1], 0).reshape(1, FEAT_DIM)
           total_counter += n_frames
         
@@ -90,7 +91,7 @@ class fc7FrameSequenceGenerator(SequenceGenerator):
     self.init_vocabulary(vocab_filename)
     SequenceGenerator.__init__(self)
     self.batch_num_streams = batch_num_streams  # needed in hdf5 to seq
-    # make the number of image/sentence pairs a multiple of the buffer size
+    # make the number of image/sentence pairs a multiple of the buffer size ###WHAT??????
     # so each timestep of each batch is useful and we can align the images
     if align:
       num_pairs = len(self.lines)

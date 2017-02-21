@@ -10,11 +10,18 @@ import sys
 
 from hdf5_npstreamsequence_generator import SequenceGenerator, HDF5SequenceWriter
 
+
+def check_path(path):
+
+    if not os.path.exists(path):
+    	os.makedirs(path)
+
+
 # UNK_IDENTIFIER is the word used to identify unknown words
 UNK_IDENTIFIER = '<en_unk>'
 
 # start every sentence in a new array, pad if <max
-MAX_WORDS = 80
+MAX_WORDS = 40
 FEAT_DIM= 4096
 
 """Filenames has file with vgg fc7 frame feats for vidids
@@ -251,8 +258,10 @@ SETTING = '.'
 OUTPUT_DIR = '{0}/hdf5/buffer_{1}_s2vt_{2}'.format(SETTING, BUFFER_SIZE, MAX_WORDS)
 VOCAB = '%s/vocabulary.txt' % SETTING
 OUTPUT_DIR_PATTERN = '%s/%%s_batches' % OUTPUT_DIR
-FRAMEFEAT_FILE_PATTERN = './youtube/splits/yt_allframes_vgg_fc7_{0}.txt'
-SENTS_FILE_PATTERN = './youtube/splits/sents_{0}_lc_nopunc.txt'
+#FRAMEFEAT_FILE_PATTERN = './youtube/splits/yt_allframes_vgg_fc7_{0}.txt'
+FRAMEFEAT_FILE_PATTERN = './yt_allframes_vgg_fc7_val.txt'
+#SENTS_FILE_PATTERN = './youtube/splits/sents_{0}_lc_nopunc.txt'
+SENTS_FILE_PATTERN = './results/val.s2vt_vgg_rgb_beam_size_1.txt'
 OUT_FILE_PATTERN = \
 './rawcorpus/{0}/s2vt_vgg_{0}_sequence.txt'
 OUT_CORPUS_PATH = './rawcorpus/{0}'
@@ -291,4 +300,5 @@ def process_splits():
     reverse)
 
 if __name__ == "__main__":
+  check_path("./rawcorpus/val/")	
   process_splits()
